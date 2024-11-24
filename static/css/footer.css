@@ -1,0 +1,80 @@
+/* Reset margins and paddings for consistent cross-browser results */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-nav {
+    text-align: center;
+    background-color: #A72463;
+    /* height: 50px; */
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 15px;
+    margin-bottom: 0px;
+  }
+  
+  .footer-nav li {
+    display: inline;
+    margin: 0 10px;
+    /* Adjust spacing between links */
+  }
+  
+  .footer-nav a {
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+    color: #c7a5b5;
+  }
+  
+  .footer-nav a:hover {
+    color: #B58EA1;
+    text-decoration: none;
+  }
+  
+  
+  
+  .footer-social-icons {
+    text-align: center;
+  }
+  
+  .footer-social-icons ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-social-icons li {
+    display: inline;
+    margin: 0 10px;
+    /* Adjust spacing between icons */
+  }
+  
+  .footer-social-icons a {
+    text-decoration: none;
+    color: #333;
+    /* Adjust icon color as needed */
+  }
+  
+  /* Optionally, you can style the icons here */
+  .footer-social-icons .icon {
+    display: inline-block;
+    width: 40px;
+    /* Adjust icon width as needed */
+    height: 40px;
+    /* Adjust icon height as needed */
+    line-height: 40px;
+    /* Center the text vertically */
+    border: 1px solid #333;
+    /* Add border for visual separation */
+    border-radius: 50%;
+    /* Make the icons circular */
+  }
